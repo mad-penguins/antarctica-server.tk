@@ -12,6 +12,8 @@ DIR = static
 
 [Snowflakes *.html]
 DIR = snow
+bootstrap.scripts = bootstrap.scripts.html
+head = head.html
 
 [Snowflakes *.py]
 DIR = py
