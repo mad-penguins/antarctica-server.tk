@@ -1,0 +1,25 @@
+[Project]
+Name = antarctica-server.tk
+
+[Build]
+DIR = build
+
+[Source]
+DIR = src
+
+[Static]
+DIR = static
+
+[Snowflakes *.html]
+DIR = snow
+
+[Snowflakes *.py]
+DIR = py
+
+[Snowflakes *.*]
+DIR = var
+
+[Snowflakes *.cfreezer]
+DIR = conf
+path = []
+
