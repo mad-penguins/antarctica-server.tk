@@ -14,9 +14,12 @@ DIR = static
 DIR = snow
 bootstrap.scripts = bootstrap.scripts.html
 head = head.html
+footer = footer.html
+header = header.html
 
 [Snowflakes *.py]
 DIR = py
+year = year.py
 
 [Snowflakes *.*]
 DIR = var
